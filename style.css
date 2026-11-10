@@ -418,7 +418,7 @@ input[type="radio"] {
   }
   p {
     margin: 0.2em 0.5em;
-    font-family: system-ui;
+    font-family: var(--Arabic-font);
     text-align: right;
   }
 }
