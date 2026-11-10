@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- arabic font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>quiz</title>
+</head>
+
+<body>
+    <section class="quiz">
+        <div class="alert">
+            <div class="inner">
+                <figure>
+                    <img src="img/angry.webp" alt="">
+                </figure>
+                <h3>!!! غلط غلط غلط</h3>
+                <p>حاولي تاني</p>
+            </div>
+        </div>
+        <h1 style="font-style: italic;"><span>quiz quiz</span> for Ayaaaa !</h1>
+        <p class="arabic">جاوبي صح عشان تعدي يا قطتي</p>
+        <div class="note arabic" dir="rtl">
+            <h2>ملحوظه !!</h2>
+            <p>الويبسايت ده معمول بتاريخ 7/20 يعني في فتره لما كنا بنتكلم
+                و علاقتنا كويسه و الكلام اللي كنت كاتبه كان من قلبي لكن في الوقت الحالي كل ده مبقاش موجود
+            </p>
+        </div>
+        <div class="form arabic" dir="rtl">
+            <div class="quest q1">
+                <p>السؤال الأول</p>
+                <h3>ايه اول يوم اتكلمنا فيه؟</h3>
+                <div class="chooses">
+                    <div class="choose" data-choose="no">
+                        <input type="radio" id="q1-one" name="choose1">
+                        <label for="q1-one">2026/6/5</label>
+                    </div>
+                    <div class="choose" data-choose="no">
+                        <input type="radio" id="q1-two" name="choose1">
+                        <label for="q1-two">2026/6/13</label>
+                    </div>
+                    <div class="choose">
+                        <input type="radio" id="q1-three" name="choose1">
+                        <label for="q1-three">2026/5/18</label>
+                    </div>
+                </div>
+            </div>
+            <div class="quest q2">
+                <p>السؤال اتاني</p>
+                <h3>مين بيتقمص اكتر</h3>
+                <div class="chooses">
+                    <div class="choose" data-choose="no">
+                        <input type="radio" id="q2-one" name="choose2">
+                        <label for="q2-one">انا</label>
+                    </div>
+                    <div class="choose">
+                        <input type="radio" id="q2-two" name="choose2">
+                        <label for="q2-two">انتي</label>
+                    </div>
+                </div>
+            </div>
+            <div class="quest q3">
+                <p>السؤال التالت</p>
+                <h3>بتحبي ايه اكتر</h3>
+                <div class="chooses">
+                    <div class="choose" data-choose="no">
+                        <input type="radio" id="q3-one" name="choose3">
+                        <label for="q3-one">البيتزا</label>
+                    </div>
+                    <div class="choose">
+                        <input type="radio" id="q3-two" name="choose3">
+                        <label for="q3-two">انا</label>
+                    </div>
+                    <div class="choose" data-choose="no">
+                        <input type="radio" id="q3-three" name="choose3">
+                        <label for="q3-three">الشاورما</label>
+                    </div>
+                </div>
+            </div>
+            <div class="quest q4">
+                <p>السؤال التالت</p>
+                <h3>ايه احسن يوم عدا عليكي في حياتك</h3>
+                <p>يا سلام علي الديموقراطيه</p>
+                <div class="chooses">
+                    <div class="choose data">
+                        <input type="radio" id="q4-one" name="choose4">
+                        <div class="label">
+                            <label for="q4-one">اول يوم اتكلمنا فيه</label>
+                            <p>و قولتي الواد ده وسيم و دمه خفيف و شكله العوض</p>
+                        </div>
+
+                    </div>
+                    <div class="choose data">
+                        <input type="radio" id="q4-two" name="choose4">
+                        <div class="label">
+                            <label for="q4-two">يوم م اتقابلنا</label>
+                            <p>اليوم ده هفضل مش ناسيه انا اتكتبلي احلي قصه حب فيه علي رأي الشاعر عمرو دياب</p>
+                        </div>
+                    </div>
+                    <div class="choose">
+                        <input type="radio" id="q4-three" name="choose4">
+                        <label for="q4-three">يوم م اجيبلك بيتزا</label>
+                    </div>
+                </div>
+            </div>
+            <div class="link">
+                <button type="submit" class="arabic" disabled>تأكيد الاجابات &larr; </لاع>
+            </div>
+        </div>
+    </section>
+    <script src="js/quiz.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</body>
+
+</html>

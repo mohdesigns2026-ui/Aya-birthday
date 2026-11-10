@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- arabic font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>celebrate</title>
+  </head>
+  <body>
+    <button id="play-btn" class="fa-beat">
+      <i class="fa-solid fa-play"></i>
+    </button>
+    <audio id="audio" src="music/10._Zay_Manty.mp3" style="display: none;"></audio>
+    <div class="hero">
+      <span style="text-transform: uppercase">a celebration</span>
+      <h1>
+        let's celebrate <span>Ayaaaaaaaa</span>
+        <i class="fa-solid fa-cake-candles"> </i>
+      </h1>
+      <button type="button" id="celebrate">celebrate</button>
+    </div>
+    <section class="memo">
+      <span class="arabic">ذكرياتنا سوا</span>
+      <h2>our beautiful moments</h2>
+      <h2 class="arabic">و مراحل اكتمال القمر</h2>
+       <p class="arabic">دوسي ع الصوره عشان تكبر</p>
+      <div class="imgs">
+        <div class="img">
+          <figure>
+            <img src="img/2.jpg" alt="" style="object-position: top" />
+          </figure>
+          <p>قمورتي الصغننه</p>
+        </div>
+        <div class="img">
+          <figure>
+            <img src="img/5.jpg" alt="" style="object-position: 0 -20px" />
+          </figure>
+          <p>انا قاعده مؤدبه</p>
+        </div>
+        <div class="img">
+          <figure>
+            <img src="img/3.jpg" alt="" style="object-position: top" />
+          </figure>
+          <p>القموصه الصغننه</p>
+        </div>
+        <div class="img">
+          <figure>
+            <img src="img/1.jpg" alt="" style="object-position: top;" />
+          </figure>
+          <p>سواقه التوكتوك بتاعتي</p>
+        </div>
+        <div class="img">
+          <figure>
+            <img src="img/4.jpg" alt="" style="object-position: top" />
+          </figure>
+          <p>حنام شويه</p>
+        </div>
+        <div class="img">
+          <figure>
+            <img src="img/6.jpg" alt="" />
+          </figure>
+          <p dir="rtl">قطتي 💗</p>
+        </div>
+        <div class="img">
+          <figure>
+            <img src="img/7.jpg" alt="" style="object-position: center" />
+          </figure>
+          <p dir="rtl">ذكريات ال us</p>
+        </div>
+        <div class="img">
+          <figure>
+            <img src="img/8.jpg" alt="" style="object-position: center" />
+          </figure>
+          <p>كولا بحبيب</p>
+        </div>
+        <div class="img us">
+          <figure>
+            <img src="img/us.jpg" alt=""/>
+          </figure>
+          <p dir="rtl">و اخيرا صورتنا اللي شلّتيني علي م بعتيها 💗🫶🏻</p>
+        </div>
+      </div>
+      <div id="img-preview">
+        <button>x</button>
+        <img src="" alt="" />
+      </div>
+    </section>
+    <!-- message -->
+    <section class="message arabic" id="message" dir="rtl">
+      <h2>رساله ليكي 💗</h2>
+      <p>دوسي عليها عشان تفتح</p>
+      <div class="letter">
+        <figure
+          onclick="
+            this.classList.add('hide');
+            last.classList.add('show');
+          "
+        >
+          <img src="img/images.png" alt="" />
+        </figure>
+        <p>
+          كل سنه ونتي طيبه ي حبيبتي و عقبال 100 سنه و تحققي كل اللي نفسك فيه و تبقي
+          احلي ميس في كفر الدوار و البحيره كلها. كل سنه ونتي طيبه ي قطتي بحبك 💗💗💗
+        </p>
+        <img src="img/9.png" alt="">
+      </div>
+    </section>
+    <!-- gift -->
+    <section class="gift arabic" id="gift" dir="rtl">
+      <h2>و اخيرًا هديتك الالكترونيه 💌</h2>
+      <p>دوسي علي الصندوق عشان تشوفي هديتك</p>
+      <div id="gift-box" class="gift-box">
+        <img src="img/gift.png" alt="" />
+      </div>
+      <div id="secret-message" class="secret-message glass-inner hidden">
+        <p>
+          "هديتك هي انا و بوكيه الورد ده. معقوله يعني عايزه هديه غيري. ربنا
+          يخليني ليكي 🫶🏻"
+        </p>
+      </div>
+    </section>
+    <footer>
+      <p>designed by <b>حبيبك محمد</b> 💗</p>
+    </footer>
+    <script src="js/celebrate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  </body>
+</html>
